@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-poc",
+  "description": "Gatsby POC",
   "version": "1.0.0",
   "author": "Syed Afroz Pasha",
   "dependencies": {
@@ -18,20 +18,17 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "GatsbyJS", "GraphQL", "ReactJS", "NodeJS"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "tailwind": "./node_modules/.bin/tailwind"
+    "build": "./node_modules/.bin/gatsby build",
+    "develop": "./node_modules/.bin/gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
     "eslint": "^4.17.0",
     "eslint-plugin-react": "^7.6.1",
-    "prettier": "^1.10.2",
-    "tailwindcss": "^0.4.1"
+    "prettier": "^1.10.2"
   }
 }
