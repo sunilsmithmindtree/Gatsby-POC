@@ -4,7 +4,7 @@
 Installation:
 ```
 
-git clone https://github.com/SyedAfrozPasha/Gatsby-POC.git master
+git clone https://github.com/SyedAfrozPasha/Gatsby-POC.git Gatsby-POC
 
 cd Gatsby-POC
 
